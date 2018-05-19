@@ -1,1 +1,1 @@
-# pagseguro-api
+# pagseguro-sdk
