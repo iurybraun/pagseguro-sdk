@@ -12,8 +12,10 @@ package pagseguro
 
 import (
 	"bytes"
-	"code.google.com/p/go-charset/charset"
-	_ "code.google.com/p/go-charset/data"
+	//"code.google.com/p/go-charset/charset"
+	//_ "code.google.com/p/go-charset/data"
+	"github.com/paulrosania/go-charset/charset"
+	"github.com/paulrosania/go-charset/data"
 	"crypto/tls"
 	"encoding/xml"
 	"fmt"
